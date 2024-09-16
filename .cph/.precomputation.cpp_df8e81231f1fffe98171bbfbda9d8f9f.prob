@@ -1,0 +1,1 @@
+{"name":"Local: precomputation","url":"d:\\desktop_D\\CodeForces_Problems\\precomputation.cpp","tests":[{"id":1718525993712,"input":"10\n1 1 1 1 1 2 3 5 2 2\n3\n1\n2\n9","output":"5\n3\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\precomputation.cpp","group":"local","local":true}

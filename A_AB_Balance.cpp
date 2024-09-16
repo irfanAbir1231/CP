@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+ 
+signed main()
+{
+    
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        string s;
+        cin>>s;
+        int ab = 0, ba = 0;
+        for(int i=0;i<s.length()-1;i++)
+        {
+            if(s[i] == 'a' and s[i+1] == 'b')
+            {
+                ab++;
+                
+            }
+            else if(s[i] == 'b' and s[i+1] == 'a')
+            {
+                ba++;
+                
+            }
+        }
+        if(ab == ba)
+        {
+            cout<<s<<endl;
+        }
+        else if(ab>ba)
+        {
+            s[0] = 'b';
+            cout<<s<<endl;
+        }
+        else
+        {
+            s[0] = 'a';
+            cout<<s<<endl;
+        }
+    }
+ 
+return 0;
+}

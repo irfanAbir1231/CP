@@ -1,0 +1,1 @@
+{"name":"Local: mapPrblm","url":"d:\\desktop_D\\CodeForces_Problems\\mapPrblm.cpp","tests":[{"id":1720283042707,"input":"3\naaa\naaa\nbas","output":"aaa 2\nbas 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\mapPrblm.cpp","group":"local","local":true}

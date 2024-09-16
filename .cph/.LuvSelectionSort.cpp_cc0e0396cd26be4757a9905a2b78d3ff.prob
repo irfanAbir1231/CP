@@ -1,0 +1,1 @@
+{"name":"Local: LuvSelectionSort","url":"d:\\desktop_D\\CodeForces_Problems\\LuvSelectionSort.cpp","tests":[{"id":1719768021973,"input":"5\n5 4 3 2 1","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\LuvSelectionSort.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: FinalDrmE","url":"c:\\Users\\irfan\\Desktop\\CodeForces_Problems\\FinalDrmE.cpp","tests":[{"id":1715005803285,"input":"4\n2 1\n4 3 \n2 2\n4 5","output":"Case #1: 4\nCase #2: 3\nCase #3: 2\nCase #4: 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\irfan\\Desktop\\CodeForces_Problems\\FinalDrmE.cpp","group":"local","local":true}

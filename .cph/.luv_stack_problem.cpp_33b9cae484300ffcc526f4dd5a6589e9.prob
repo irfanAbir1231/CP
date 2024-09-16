@@ -1,0 +1,1 @@
+{"name":"Local: luv_stack_problem","url":"d:\\desktop_D\\CodeForces_Problems\\luv_stack_problem.cpp","tests":[{"id":1720945461367,"input":"3\n((\n(())\n({)}","output":"NO\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\luv_stack_problem.cpp","group":"local","local":true}

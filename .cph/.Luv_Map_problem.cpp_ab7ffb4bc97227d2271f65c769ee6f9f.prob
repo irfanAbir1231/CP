@@ -1,0 +1,1 @@
+{"name":"Local: Luv_Map_problem","url":"d:\\desktop_D\\CodeForces_Problems\\Luv_Map_problem.cpp","tests":[{"id":1720354384409,"input":"4\nasdf\nckkk\nckkk\nbhjjl","output":"asdf\nbhjjl\nckkk"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\Luv_Map_problem.cpp","group":"local","local":true}

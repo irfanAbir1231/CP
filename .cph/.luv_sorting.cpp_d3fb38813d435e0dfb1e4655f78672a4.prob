@@ -1,0 +1,1 @@
+{"name":"Local: luv_sorting","url":"d:\\desktop_D\\CodeForces_Problems\\luv_sorting.cpp","tests":[{"id":1720957817649,"input":"3\n1 4\n1 2\n3 2","output":"3 4 4 6 6 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\luv_sorting.cpp","group":"local","local":true}

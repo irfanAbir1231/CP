@@ -1,0 +1,1 @@
+{"name":"Local: x","url":"c:\\Users\\irfan\\Desktop\\CodeForces_Problems\\x.cpp","tests":[{"id":1715007930792,"input":"4\n2 1\n4 3 \n2 2\n4 5","output":""},{"id":1715008454317,"input":"4\n2 1\n4 3 \n2 2\n4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\irfan\\Desktop\\CodeForces_Problems\\x.cpp","group":"local","local":true}

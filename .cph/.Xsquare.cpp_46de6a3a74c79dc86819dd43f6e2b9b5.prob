@@ -1,0 +1,1 @@
+{"name":"Local: Xsquare","url":"d:\\desktop_D\\CodeForces_Problems\\Xsquare.cpp","tests":[{"id":1718791047255,"input":"5\nwow\ntata\na\nab\nlala","output":"Yes\nYes\nNo\nNo\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\desktop_D\\CodeForces_Problems\\Xsquare.cpp","group":"local","local":true}
