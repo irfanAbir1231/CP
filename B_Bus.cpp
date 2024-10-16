@@ -14,23 +14,30 @@ signed main()
     Irfan
     
     test{
-        int n,r;
-        cin>>n>>r;
-        int ans=0;
-        int rem=0;
+        int n;
+        double x;
+        cin>>n>>x;
+        ll sum=0,ans=0;
+
+        vector<int>a(n);
 
         for (int i = 0; i < n; i++)
         {
-            int x;
-            cin>>x;
-
-            r-=x/2;
-            ans += (x/2)*2;
-            rem+=x%2;
-
+            /* code */
+            cin>>a[i];
         }
-        cout<<ans+min(rem,2*r-rem)<<endl;
-        
+
+        sort(a.begin(),a.end());
+
+        for (int i = 0; i < n; i++)
+        {
+            sum+=a[i];
+        }
+
+        ans = ceil(sum/x);
+
+        cout<<max((ll)a[n-1],ans)<<endl;
+
     }
  
 return 0;

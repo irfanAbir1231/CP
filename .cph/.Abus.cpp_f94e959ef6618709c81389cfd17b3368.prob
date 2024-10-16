@@ -1,0 +1,1 @@
+{"name":"Local: Abus","url":"/media/irfan/IRFAN/desktop_D/CodeForces_Problems/Abus.cpp","tests":[{"id":1729023499339,"input":"4\n3 3\n2 3 1\n3 3\n2 2 2\n4 5\n1 1 2 2\n4 5\n3 1 1 3","output":"4\n6\n6\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/irfan/IRFAN/desktop_D/CodeForces_Problems/Abus.cpp","group":"local","local":true}
