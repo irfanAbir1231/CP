@@ -1,0 +1,53 @@
+// Irfan Hakim Bhuiyan
+// SWE, Islamic University Of Technology
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define int long long
+#define nl cout << endl;
+#define vec_print(v) for(auto i : v) cout << i << " "; nl;
+#define all(v) v.begin(), v.end()
+const int mod = 1e9 + 7;
+
+void solve() {
+    int n;
+    cin>>n;
+
+    int diff=0;
+    int total=0;
+
+    vector<int> arr(n+1);
+    for (int i = 0; i < n; i++)
+    {
+        cin>>arr[i];
+    }
+
+    for (int i = 0; i < n-1; i++)
+    {
+        if(arr[i]>arr[i+1]){
+            diff = arr[i]-arr[i+1];
+            arr[i+1]=arr[i];
+            // cout<<diff<<" ";
+            total+=diff;
+
+        }
+    }
+
+    cout<<total<<endl;
+    
+    
+}
+signed main()
+{
+    ios::sync_with_stdio(false); cin.tie(0);
+    
+    int t = 1;
+    // cin >> t;
+    for(int i = 1; i <= t; i++) {
+        // cout << "Case " << i << ": ";
+        solve();
+    }
+    
+    return 0;
+}
