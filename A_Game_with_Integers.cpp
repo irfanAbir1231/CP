@@ -13,28 +13,11 @@ const int mod = 1e9 + 7;
 void solve() {
     int n;
     cin>>n;
-    string s;
-    cin>>s;
-    int cnt=0;
-    int three = 0;
-    int dot=0;
 
-
-    for (int i = 0; i < n; i++)
-    {
-        if(s[i]=='.'){
-            cnt++;
-            dot++;
-        }
-        else cnt=0;
-
-        if(cnt>=3)break;
-    }
-    if(cnt>=3) cout<<2<<endl;
+    if(n%3==0)cout<<"Second"<<endl;
     else{
-        cout<<dot<<endl;
+        cout<<"First"<<endl;
     }
-    
 }
  
  
