@@ -11,29 +11,29 @@ using namespace std;
 const int mod = 1e9 + 7;
 
 void solve() {
-    int n;
-    cin>>n;
+    int n,m;
+    cin>>n>>m;
+
     string s;
-    cin>>s;
+    int Total=0;
     int cnt=0;
-    int three = 0;
-    int dot=0;
-
-
     for (int i = 0; i < n; i++)
     {
-        if(s[i]=='.'){
+        cin>>s;
+        
+    }
+    for (int i = 0; i < n; i++)
+    {
+        if(Total+=s.length()<=m){
+            Total+=s.length();
             cnt++;
-            dot++;
         }
-        else cnt=0;
-
-        if(cnt>=3)break;
+        else{
+            break;
+        }
     }
-    if(cnt>=3) cout<<2<<endl;
-    else{
-        cout<<dot<<endl;
-    }
+    
+    cout<<cnt<<endl;
     
 }
  

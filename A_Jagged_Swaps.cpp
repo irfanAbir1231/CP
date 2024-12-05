@@ -13,27 +13,19 @@ const int mod = 1e9 + 7;
 void solve() {
     int n;
     cin>>n;
-    string s;
-    cin>>s;
-    int cnt=0;
-    int three = 0;
-    int dot=0;
+    int flag = true;
 
-
+    vector<int> v(n);
     for (int i = 0; i < n; i++)
     {
-        if(s[i]=='.'){
-            cnt++;
-            dot++;
-        }
-        else cnt=0;
-
-        if(cnt>=3)break;
+        cin>>v[i];
     }
-    if(cnt>=3) cout<<2<<endl;
+    if(v[0]==1)cout<<"YES"<<endl;
     else{
-        cout<<dot<<endl;
+        cout<<"NO"<<endl;
     }
+
+    
     
 }
  
