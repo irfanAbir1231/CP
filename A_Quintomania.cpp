@@ -1,44 +1,39 @@
-//irfan Hakim Bhuiyan
-//SWE, Islamic University Of Technology
-#include<bits/stdc++.h>
+// Irfan Hakim Bhuiyan
+// SWE, Islamic University Of Technology
+#include <bits/stdc++.h>
 using namespace std;
-#define MAX 1000000
-#define   Irfan          ios::sync_with_stdio(false);cin.tie(0);
-#define sqr(x) ((x) * (x))
-#define test int t; cin >> t; cin.ignore();  while(t--)
+#define Irfan ios::sync_with_stdio(false); cin.tie(0);
+#define test int t; cin >> t; while(t--)
 typedef long long ll;
-const int N = 1e5+10;
- 
-signed main()
-{
+
+int main() {
     Irfan
     
-    test{
+    test {
         int n;
-        cin>>n;
-    
-        int arr[n];
-        int flg=0;
+        cin >> n;
+        
+        vector<int> arr(n);  
+        bool isPerfect = true;
 
-        for (int i = 0; i < n; i++)
-        {
-            cin>>arr[i];
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
         }
 
-        for (int i = 0; i < n-1; i++)
-        {
-            if(abs(arr[i]-arr[i+1])==7 and abs(arr[i]-arr[i+1])==5){
-            cout<<"YES"<<endl;
-            flg=1;
-            break;
+        for (int i = 0; i < n - 1; i++) {
+            int interval = abs(arr[i] - arr[i + 1]);
+            if (interval != 5 && interval != 7) {
+                isPerfect = false;
+                break;
             }
         }
-        if(flg==0)cout<<"NO"<<endl;
         
-        
-        
-
+        if (isPerfect) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
     }
  
-return 0;
+    return 0;
 }

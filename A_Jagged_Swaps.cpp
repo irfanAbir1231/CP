@@ -24,8 +24,6 @@ void solve() {
     else{
         cout<<"NO"<<endl;
     }
-
-    
     
 }
  
